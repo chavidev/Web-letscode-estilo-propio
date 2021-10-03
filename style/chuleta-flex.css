@@ -1,0 +1,39 @@
+display: flex;  /* gird y algunos métodos mas faltarían aquí*/ 
+justify-content: flex-start /* flex-start || flex-end || center || space-between || space-around || space-evanly */
+gap: 1 rem /* espacio entre cajas */
+
+flex-direction:row /* row || row-reverse || column || column-reverse */    /* eje principal*/
+flex-wrap: nowrap  /* nowrap(no-salta=>overflow) || wrap(salta) || wrap-reverse || inherit */
+flex-flow: row wrap   /* flex-direction + flex-wrap*/
+
+/* modificando el orden de escritura */
+Direction: ltr       /* left to right  */
+Direction: rtl       /*  right to left  */
+/* ¡no es flex, pero se puede usar! ¿para tocar las narices? */
+
+flex: 1  /* flex-grow:1 flex-shink:1 flex-basis: 0%*/
+flex1 2 /* flex-grow:1 flex-shink:1 flex-basis: 0%*/
+flex-grow: 0(default) /* 0(no crece) || 1(crece) || */                    /* crecimiento */  #################################
+flex-shink: 1(default)  /* 0(constante=> generaoverflow sin flex-wrap)  || 1(contrae) || >1(contrae con mayor intensidad)*/  /*  =encogimiento  || sin espacio =>contrae */ 
+flex-basis: 0% || número /* reparte el espacio sobrante, pero si puede lo coge y manda otros a otra línea*/
+
+justify-content: flex-start   /* flex-start || flex-end || center || space-between ||  space-around(uniforme) ||  space-evenly(igualado) */
+align-items: stretch /* stretch(lo que ocupe el mayor) || flex-start || flex-end || center || baseline(aligned as their baselines align*/
+
+/* poco uso: ¿solo cuando los item van saltando a las siguientes líneas? pendiente de entender y confirmas con mis palabras */ 
+align-content: stretch  /* flex-start || flex-end || center || space-between ||  space-around || stretch(default)*/ 
+
+
+
+/* ojo los hijos empiezan por el uno */
+.card:nth-child(2) { aling-self: flex-end}  /* modificamos un item específico  */
+.card:nth-child(2n+3) { aling-self: flex-end}  /*  hacemos lineas de una cebra */
+aling-self: flex-end /*sobreescribe el comportamiento del padre*/
+
+order: -2   /* modifica el orden preestablecido */
+
+
+
+min-width: 15 rem    /*  espacio mínimo de las cajas  */
+line-height:     /*interlineado   ¿pa mi que esto no es de flex?   */
+text-align: center;   /* ¿pa mi que esto no es de flex? */
