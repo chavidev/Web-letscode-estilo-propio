@@ -2,3 +2,86 @@
   box-sizing: border-box;
 }
 
+:root {
+ --Primay-color-2: #4E56C2;
+ --Primary-color-strong-2:#070E75;
+ --Primary-color-light-2:#C5C9FA;
+ --Second-color-strong-2:#7A671B;
+ --Second-color-light-2:#C2B47E;
+ --Negro:#040404;
+ --Blanco:#f0f8ff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  font-size: 2em;
+  background-color: var(--Negro);    
+}
+.pestaña {
+  color:var(--Second-color-light-2);
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2rem;
+  border-radius: 5rem;
+}
+.pestaña:hover{
+  background-color: var(--Second-color-light-2);
+  color: var(--Blanco);
+}
+.container {
+  display: flex;
+  _justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid red;
+}
+
+.logo {
+  width: 10rem;
+}
+
+main {
+  width: 80%;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border: 3px solid blueviolet
+}
+
+.titulo2{
+  color: var(--Negro);
+  font-size: 2rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  margin-top: 3rem;
+}
+.card {
+  border: 3px solid rgb(63, 43, 155);
+}
+
+.caja-fecha , .caja-curso , .caja-modalidad {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.fecha-titulo , .curso-titulo , .modalidad-titulo{
+  font-weight: bold;
+  border: 3px solid rgb(136, 94, 94);
+}
+
+.button{
+  margin: 1rem;
+  color: var(--Blanco);
+  font-weight: bold;
+  background-color: var(--Primary-color-strong-2);
+  padding: 1rem;
+  border-radius: 3rem;
+}
+.button:hover{
+  border: 1px solid var(--Primary-color-strong-2);
+  background-color: var(--Blanco);
+  color:var(--Primary-color-strong-2);
+}
