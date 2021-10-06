@@ -62,7 +62,7 @@ main {
   align-items: center;
   gap: 0;
   _border: 3px solid blueviolet;
-  background-image: url("../img/imagen-fondo.jpg");
+  background-image: url("../img/imagen-espejo.jpg");
 }
 
 .titulo2{
@@ -84,7 +84,7 @@ main {
   min-width: 350px; /* hay que conseguir que se quede con el ancho del mayor */
   _border: 3px solid rgb(63, 43, 155);  
 }
-
+/* .datos {} */
 .caja-fecha , .caja-curso , .caja-modalidad {
   display: flex;
   gap: 0.5rem;
@@ -115,7 +115,7 @@ main {
 
 
 
-/* pendiente de implementar con background image además de lets coder, hay que modificarlo */
+
 .button:hover{
   _border: 1px solid var(--Primary-color-strong-2);
   background-color: var(--Blanco);
@@ -131,12 +131,14 @@ main {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  padding: 2rem;
 }
 .descripcion-conocenos {
   align-self: center;
   max-width: 30%;
-  padding: 0 50px;
+  _padding: 2rem;
   text-align: justify;
+  margin-right: 3rem;
 }
 .card-mentores {
   display: flex;
@@ -151,9 +153,15 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 .texto-mentores {
   text-align: center;
+}
+.fondo-texto {
+  background-color: rgba(240, 248, 255, 0.753);
+  padding: 1rem;
+  border-radius: 3rem;
 }
 .borde1 {
   border: 3px dotted rgb(136, 94, 94);
