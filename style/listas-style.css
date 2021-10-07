@@ -3,12 +3,16 @@ main {
   background-image: none;
   margin-top: 50px;
 }
+.conjunto-listas {
+  display: flex;
+}
 .listas {
   width: 30%;
   /* margin: auto; */
   margin: 2rem;
   border: 2px solid #663399;
   text-align: left;
+  border-radius: 2rem;
 }
 
 
@@ -26,7 +30,9 @@ li {
   color: whitesmoke;
   font-size: 3rem;
   padding: 1.5rem;
+  margin-bottom: 3rem;
   background-color: #663399;
+  border-radius: 2rem;
 }
 
 
@@ -37,3 +43,10 @@ font-family: 'Roboto', sans-serif;
 cuerpo del texto:
 font-family: 'Nunito Sans', sans-serif;
  */
+
+ main {
+   _min-height: 10vh;/* tengo que poder anularlo de alguna forma mejor */
+   width: 100%;
+ }
+
+
