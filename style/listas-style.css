@@ -5,8 +5,9 @@ main {
 }
 .listas {
   width: 30%;
-  margin: auto;
-  border: 2px solid rebeccapurple;
+  /* margin: auto; */
+  margin: 2rem;
+  border: 2px solid #663399;
   text-align: left;
 }
 
@@ -22,9 +23,17 @@ li {
 .titulo-listas {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-
+  color: whitesmoke;
+  font-size: 3rem;
+  padding: 1.5rem;
+  background-color: #663399;
 }
 
-font-family: 'Nunito Sans', sans-serif;
+
+/*
+combinaciónd e fuentes interesantes
+Título:
 font-family: 'Roboto', sans-serif;
+cuerpo del texto:
+font-family: 'Nunito Sans', sans-serif;
+ */
