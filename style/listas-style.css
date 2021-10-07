@@ -1,0 +1,30 @@
+
+main {
+  background-image: none;
+  margin-top: 50px;
+}
+.listas {
+  width: 30%;
+  margin: auto;
+  border: 2px solid rebeccapurple;
+  text-align: left;
+}
+
+
+li {
+  list-style-type: circle;
+  margin-block-start: 10px;
+  margin-left: 2rem;
+  margin-block-end: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.titulo-listas {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+
+}
+
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
